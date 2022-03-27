@@ -62,6 +62,11 @@ export default function Login() {
               variantColor="orange"
               variant="outline"
               width="full"
+              mt={4}>Go to Dashboard</Button>
+            <Button
+              variantColor="orange"
+              variant="outline"
+              width="full"
               mt={4}
               onClick={() => setIsLoggedIn(false)}
             >
